@@ -1,0 +1,48 @@
+
+
+<?php
+$number1 = 10;
+$number2 = 5;
+
+// Equal to
+if ($number1 == $number2) {
+    echo "Number 1 is equal to Number 2";
+} else {
+    echo "Number 1 is not equal to Number 2";
+}
+
+// Not equal to
+if ($number1 != $number2) {
+    echo "Number 1 is not equal to Number 2";
+} else {
+    echo "Number 1 is equal to Number 2";
+}
+
+// Greater than
+if ($number1 > $number2) {
+    echo "Number 1 is greater than Number 2";
+} else {
+    echo "Number 1 is not greater than Number 2";
+}
+
+// Less than
+if ($number1 < $number2) {
+    echo "Number 1 is less than Number 2";
+} else {
+    echo "Number 1 is not less than Number 2";
+}
+
+// Greater than or equal to
+if ($number1 >= $number2) {
+    echo "Number 1 is greater than or equal to Number 2";
+} else {
+    echo "Number 1 is neither greater than nor equal to Number 2";
+}
+
+// Less than or equal to
+if ($number1 <= $number2) {
+    echo "Number 1 is less than or equal to Number 2";
+} else {
+    echo "Number 1 is neither less than nor equal to Number 2";
+}
+?>
